@@ -1,0 +1,9 @@
+#zdjecie1 {
+    float: left;
+}
+#zdjecie2 {
+    float: right;
+}
+p:last-child {
+    clear: both;
+}
