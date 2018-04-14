@@ -1,0 +1,17 @@
+#p1::before {
+    content: "przed elementem ";
+    color: red;
+}
+#p2::after {
+    content: " za elementem";
+    color: aqua;
+}
+#p2::first-letter {
+    color: yellow;
+    font-weight: bold;
+}
+
+#p4::selection {
+    color: pink;
+    font-size: 20px;
+}
