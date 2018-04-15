@@ -1,0 +1,51 @@
+img {
+    width: 250px;
+    height: 250px;
+    transition: all 2s;
+}
+
+
+
+.rotate-example img:hover {
+    transform: rotate(90deg);
+}
+
+.translate-example img:hover {
+    transform: translate(150px, 100px);
+}
+
+.scale-example {
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.scale-example img:hover {
+    transform: scale(3);
+
+}
+
+.animation-example img:hover {
+    transform: scale(1.5) rotate(90deg);
+}
+
+@keyframes resize {
+    0%,
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+    50% {
+        width: 30%;
+        height: 60%;
+
+    }
+
+}
+
+.animation-example img {
+    animation: resize 5s infinite linear;
+}
+
+}
