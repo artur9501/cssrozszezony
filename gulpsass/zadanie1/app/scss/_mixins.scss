@@ -6,8 +6,15 @@
         li {
             display: inline-block;
             a {
-                color: aqua;
+                color: $font;
+                &:hover {
+                    color: red;
+                }
             }
         }
     }
+}
+
+@mixin custom-border-radius($brd) {
+    border-radius: $brd/2;
 }

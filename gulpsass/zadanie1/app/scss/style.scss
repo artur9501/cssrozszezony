@@ -12,3 +12,10 @@ p {
 nav {
     @include menu-nawigacyjne;
 }
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    @include custom-border-radius(50%);
+}
