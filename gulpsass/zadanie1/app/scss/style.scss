@@ -1,0 +1,14 @@
+@import "zmienne";
+@import "mixins";
+
+body {
+    background-color: $background-body;
+}
+
+p {
+    color: $font;
+}
+
+nav {
+    @include menu-nawigacyjne;
+}
